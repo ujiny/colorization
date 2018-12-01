@@ -1,4 +1,5 @@
-## [Colorization](https://github.com/richzhang/colorization)
+# [Colorization](https://github.com/richzhang/colorization)
+이미지 컬러 <-> 흑백 
 
 ## 프로젝트 환경 구성
 
