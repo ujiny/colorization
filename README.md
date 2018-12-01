@@ -41,18 +41,22 @@ $ make
 ```
 
 ### Colorization
-- 설치 및 초기 셋팅
 ```
 $ git clone -b master --single-branch https://github.com/richzhang/colorization.git
 $ cd colorization
 $ ./models/fetch_release_models.sh
 ```
-- 테스트 예제 (컬러 > 흑백)
+
+## 실행
+
+- 테스트 명령어 예제 (컬러 > 흑백)
 ```
 $ python ./colorize.py -img_in ./demo/imgs/ILSVRC2012_val_00041580.JPEG -img_out ./out.png
 ```
 
-- [트레이닝](https://github.com/richzhang/colorization#2-training-usage)
+## 학습 
+
+- [학습](https://github.com/richzhang/colorization#2-training-usage)
 
 ----------------------------
 
