@@ -18,6 +18,7 @@
   - cuDNN
   - 기타 (파이썬 기본 라이브러리)
 - [Caffe 설치 스크립트](https://gist.github.com/rizkyario/a09dcb10d652de7f7c56bb6ef6662384)
+  - 설치 방법 모색 중에 간단한 방법을 발견하였습니다.
 
 ## 프로젝트 실행 (컴파일, 실행, 학습)
 
