@@ -49,9 +49,9 @@ $ ./models/fetch_release_models.sh
 
 ## 실행
 
-- 테스트 명령어 예제 (컬러 > 흑백)
+- 흑백 > 컬러 실행 명령어
 ```
-$ python ./colorize.py -img_in ./demo/imgs/ILSVRC2012_val_00041580.JPEG -img_out ./out.png
+$ python ./colorize.py -img_in ./demo/imgs/ansel_adams.jpg -img_out ./out.png
 ```
 
 ## 학습 
