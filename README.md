@@ -56,14 +56,17 @@ $ python ./colorize.py -img_in ./demo/imgs/ILSVRC2012_val_00041580.JPEG -img_out
 
 ## 학습 
 
-(1) `caffemodel` 을 로드 하기 아래 명령어 실행 (모델 : `models/init_v2.caffemodel`)
+(1) `caffemodel` 을 로드 하기 아래 스크립트 실행 (모델 : `models/init_v2.caffemodel`)
 ```
 $ ./train/fetch_init_model.sh
 ```
 
-(2) Run `./train/fetch_caffe.sh`. This will load a modified Caffe into directory `./caffe-colorization`. For guidelines and help with installation of Caffe, consult the [installation guide](http://caffe.berkeleyvision.org/) and [Caffe users group](https://groups.google.com/forum/#!forum/caffe-users).
+(2) 수정된 `Caffe` 를 해당 폴더에 로드하기 위해 스크립트 실행
+```
+$ ./train/fetch_caffe.sh
+```
 
-(3) Add the `./resources/` directory (as an absolute path) to your system environment variable $PYTHONPATH. This directory contains custom Python layers.
+(3) 이미지들을 저장해놓은 폴더(`/resources`)를 환경 변수로 설정 (`$PYTHONPATH`)
 
 (4) Modify paths in data layers `./models/colorization_train_val_v2.prototxt` to locate where ImageNet LMDB files are on your machine. These should be BGR images, non-mean centered, in [0,255].
 
