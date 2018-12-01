@@ -68,9 +68,10 @@ $ ./train/fetch_caffe.sh
 
 (3) 이미지들을 저장해놓은 폴더(`/resources`)를 환경 변수로 설정 (`$PYTHONPATH`)
 
-(4) Modify paths in data layers `./models/colorization_train_val_v2.prototxt` to locate where ImageNet LMDB files are on your machine. These should be BGR images, non-mean centered, in [0,255].
-
-(5) 학습 `./train/train_model.sh [GPU_ID]`, where `[GPU_ID]` is the gpu you choose to speci
+(4) 학습 실행 (사용할 GPU ID 필요)
+```
+$ ./train/train_model.sh [GPU_ID]
+```
 
 ----------------------------
 
