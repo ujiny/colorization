@@ -27,6 +27,30 @@
 
 ## 프로젝트 실행 (컴파일, 실행, 학습)
 
+## 컴파일
+
+### Caffe
+
+```
+$ git clone https://github.com/BVLC/caffe.git
+$ cd caffe
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
+```
+
+### Colorization
+- 설치 및 초기 셋팅
+```
+$ git clone -b master --single-branch https://github.com/richzhang/colorization.git
+$ cd colorization
+$ ./models/fetch_release_models.sh
+```
+- 테스트 예제 (컬러 > 흑백)
+```
+$ python ./colorize.py -img_in ./demo/imgs/ILSVRC2012_val_00041580.JPEG -img_out ./out.png
+```
 
 ----------------------------
 
