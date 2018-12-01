@@ -52,6 +52,8 @@ $ ./models/fetch_release_models.sh
 $ python ./colorize.py -img_in ./demo/imgs/ILSVRC2012_val_00041580.JPEG -img_out ./out.png
 ```
 
+- [트레이닝](https://github.com/richzhang/colorization#2-training-usage)
+
 ----------------------------
 
 ## 프로젝트 실험 결과 (실제 돌린 결과) 
