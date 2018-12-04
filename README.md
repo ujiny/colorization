@@ -76,6 +76,8 @@ $ ./train/train_model.sh [GPU_ID]
 ----------------------------
 
 ## 프로젝트 실험 결과 (실제 돌린 결과) 
+### 예상 
+![Teaser Image](http://richzhang.github.io/colorization/resources/images/teaser4.jpg)
 
 ### Legacy
 - 더 이상 프로젝트 업데이트 하지 않음.
